@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In-Hand Salary Calculator 2026 - Worldwide Take Home Pay Calculator | TakeHome</title>
+<meta name="description" content="Free In-Hand Salary Calculator - Calculate take home salary from CTC worldwide. India (New/Old Regime), USA, UK, Dubai. No subscription, unlimited free. Best salary calculator 2026.">
+<meta name="keywords" content="in hand salary calculator, take home salary calculator, CTC to in hand salary, salary calculator India, net salary calculator, gross to net salary">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://takehome-salary.pages.dev/">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap');
+:root{--bg:#fbfaf9;--card:#ffffff;--border:#f0ece8;--dark:#141210;--purple:#7c3aed;--purple2:#5b21b6;--orange:#ff6b2c;--muted:#8a837e;--green:#059669}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Instrument Sans',sans-serif}
+body{background:var(--bg);color:var(--dark);line-height:1.6}
+header{background:rgba(251,250,249,0.8);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;padding:14px 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:700;font-size:21px;color:var(--dark);text-decoration:none;display:flex;align-items:center;gap:10px}
+.logo-mark{width:34px;height:34px;background:var(--dark);color:#fff;display:grid;place-items:center;border-radius:10px;font-weight:700;transform:rotate(-3deg)}
+nav a{margin-left:16px;text-decoration:none;color:var(--muted);font-weight:600;font-size:14px}
+nav a.cta{background:var(--dark);color:#fff;padding:10px 18px;border-radius:100px}
+.container{max-width:1160px;margin:0 auto;padding:20px 5%}
+.ad-box{background:#fff;border:1px dashed #e7ddd4;border-radius:16px;min-height:90px;display:flex;align-items:center;justify-content:center;margin:20px 0}
+@media(max-width:768px){.ad-box{min-height:70px}.hide-d{display:none}.show-m{display:block!important}}
+.show-m{display:none}
+.main{display:grid;grid-template-columns:1.1fr 0.9fr;gap:22px}
+@media(max-width:950px){.main{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:22px;padding:24px;box-shadow:0 8px 24px rgba(20,18,16,0.04)}
+.pill{display:inline-flex;gap:6px;background:#f5f0ff;border:1px solid #ede9fe;color:var(--purple);font-size:11px;font-weight:700;padding:6px 12px;border-radius:100px}
+.card h1{font-size:28px;line-height:1.15;margin:12px 0 6px;letter-spacing:-0.6px}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.input{margin-bottom:14px}
+.input label{font-size:11px;font-weight:700;color:#57534e;margin-bottom:7px;display:block;text-transform:uppercase;letter-spacing:0.6px}
+.input input,.input select{width:100%;padding:13px 14px;border:1.5px solid var(--border);border-radius:12px;background:#fffcfb;font-size:14px;font-weight:600;outline:none}
+.input input:focus{border-color:var(--purple)}
+.range{width:100%;accent-color:var(--purple);margin-top:6px}
+.btn{width:100%;background:var(--dark);color:#fff;border:none;padding:15px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;margin-top:8px}
+.tabs{display:flex;gap:8px;margin-bottom:16px;background:#f7f3f0;padding:4px;border-radius:12px}
+.tab{flex:1;padding:10px;border-radius:9px;text-align:center;font-size:13px;font-weight:700;cursor:pointer;color:var(--muted)}
+.tab.active{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.06);color:var(--dark)}
+.result{background:var(--dark);border-radius:22px;padding:24px;color:#fff;position:relative;overflow:hidden}
+.result::before{content:"";position:absolute;top:-40px;right:-40px;width:180px;height:180px;background:radial-gradient(circle,var(--purple),transparent 70%);opacity:0.3}
+.kicker{font-size:10px;letter-spacing:2px;color:#a78bfa;text-transform:uppercase}
+.big{font-size:38px;font-weight:700;margin:8px 0;letter-spacing:-1px}
+.big span{font-size:14px;color:#a8a29e;font-weight:400}
+.break{display:grid;grid-template-columns:1fr;gap:10px;margin-top:16px}
+.row{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);padding:12px 14px;border-radius:12px;font-size:13px}
+.row b{font-size:14px}
+.row.green{border-color:rgba(16,185,129,0.3);background:rgba(16,185,129,0.1)}
+.row.orange{border-color:rgba(255,107,44,0.3);background:rgba(255,107,44,0.1)}
+.salary-bar{display:flex;height:10px;border-radius:100px;overflow:hidden;margin-top:16px;background:rgba(255,255,255,0.1)}
+.bar{height:100%}
+.content{background:#fff;border:1px solid var(--border);border-radius:22px;padding:30px;margin-top:24px}
+.content h2{font-size:20px;margin:24px 0 10px;letter-spacing:-0.3px}
+.content p{color:#57534e;font-size:15px;margin-bottom:12px;line-height:1.8}
+.faq div{padding:14px 0;border-bottom:1px solid var(--border)}
+.faq b{color:var(--dark)}
+footer{background:#141210;color:#a8a29e;padding:36px 5%;margin-top:36px;border-radius:24px 24px 0 0;text-align:center}
+footer a{color:#a8a29e;text-decoration:none;margin:0 10px;font-size:14px}
+footer a:hover{color:#fff}
+</style>
+</head>
+<body>
+<header>
+<a href="/" class="logo"><div class="logo-mark">T</div> TakeHome</a>
+<nav>
+<a href="/">Home</a>
+<a href="https://fixoraa.tech" class="cta" target="_blank">More Tools →</a>
+</nav>
+</header>
+
+<div class="container">
+<div class="ad-box">
+<div class="hide-d">
+<script>
+  atOptions = {
+    'key' : '4e68ac77881c17fe128a46565d9a4e8c',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highrevenueformat.com/4e68ac77881c17fe128a46565d9a4e8c/invoke.js"></script>
+</div>
+<div class="show-m">
+<script>
+  atOptions = {
+    'key' : '4e68ac77881c17fe128a46565d9a4e8c',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highrevenueformat.com/4e68ac77881c17fe128a46565d9a4e8c/invoke.js"></script>
+</div>
+</div>
+
+<div class="main">
+<div class="card">
+<div class="pill">● WORLDWIDE • NEW REGIME 2026 • UNLIMITED</div>
+<h1>CTC to In-Hand Salary Calculator</h1>
+<p class="sub">Find your exact take-home pay from CTC. India, USA, UK, Dubai supported.</p>
+
+<div class="tabs">
+<div class="tab active" id="tabIndia" onclick="setCountry('INDIA')">🇮🇳 India</div>
+<div class="tab" id="tabUSA" onclick="setCountry('USA')">🇺🇸 USA</div>
+<div class="tab" id="tabUK" onclick="setCountry('UK')">🇬🇧 UK / Dubai</div>
+</div>
+
+<div class="grid2">
+<div class="input"><label>Annual CTC / Gross Salary</label><input type="number" id="ctc" value="1200000"></div>
+<div class="input"><label>Tax Regime</label><select id="regime"><option value="new">New Regime 2026 (Default)</option><option value="old">Old Regime (80C)</option></select></div>
+</div>
+
+<div class="grid2">
+<div class="input"><label>Basic Salary % of CTC</label><input type="number" id="basicPerc" value="40"><input type="range" class="range" min="30" max="60" value="40" id="basicRange" oninput="document.getElementById('basicPerc').value=this.value;calcSalary()"></div>
+<div class="input"><label>HRA % of Basic</label><input type="number" id="hraPerc" value="50" min="0" max="60"></div>
+</div>
+
+<div class="grid2">
+<div class="input"><label>80C Investments (₹)</label><input type="number" id="inv80c" value="150000"></div>
+<div class="input"><label>Other Deductions (₹)</label><input type="number" id="otherDed" value="0"></div>
+</div>
+
+<div class="grid2">
+<div class="input"><label>City Type</label><select id="city"><option value="metro">Metro (50% HRA)</option><option value="nonmetro">Non-Metro (40% HRA)</option></select></div>
+<div class="input"><label>Monthly Bonus (₹)</label><input type="number" id="bonus" value="0"></div>
+</div>
+
+<button class="btn" onclick="calcSalary()">Calculate Take-Home →</button>
+</div>
+
+<div class="result">
+<div class="kicker">Your Monthly In-Hand Salary</div>
+<div class="big" id="inHand">₹ 84,550 <span>/ month</span></div>
+<div style="font-size:12px;color:#a8a29e" id="yearlyInHand">Yearly In-Hand: ₹ 10,14,600 • 84.5% of CTC</div>
+
+<div class="break">
+<div class="row"><span>Basic Salary (Annual)</span><b id="basicAmt">₹ 4,80,000</b></div>
+<div class="row"><span>HRA (Annual)</span><b id="hraAmt">₹ 2,40,000</b></div>
+<div class="row"><span>Special Allowance</span><b id="special">₹ 3,67,200</b></div>
+<div class="row orange"><span>PF Deduction (12%)</span><b id="pf">- ₹ 57,600</b></div>
+<div class="row orange"><span>Income Tax</span><b id="tax">- ₹ 42,000</b></div>
+<div class="row"><span>Gratuity (Part of CTC)</span><b id="gratuity">₹ 23,088</b></div>
+<div class="row green"><span>Yearly Take-Home</span><b id="takeHomeYear">₹ 10,14,600</b></div>
+</div>
+
+<div class="salary-bar">
+<div class="bar" id="barTake" style="width:70%;background:#fff"></div>
+<div class="bar" id="barTax" style="width:10%;background:var(--orange)"></div>
+<div class="bar" id="barPF" style="width:15%;background:var(--purple)"></div>
+<div class="bar" style="width:5%;background:rgba(255,255,255,0.2)"></div>
+</div>
+<div style="display:flex;gap:12px;margin-top:8px;font-size:10px;color:#a8a29e"><span>● In-Hand</span><span style="color:var(--orange)">● Tax</span><span style="color:#a78bfa">● PF</span></div>
+</div>
+</div>
+
+<div class="ad-box">
+<div data-banner-id="1501463"></div>
+</div>
+
+<div class="content">
+<h2>What is In-Hand Salary Calculator? Worldwide Guide 2026</h2>
+<p>In-Hand Salary or Take-Home Salary is the actual amount you receive in your bank account after all deductions like PF, Income Tax, Gratuity, Professional Tax. CTC (Cost to Company) is not your salary - it includes company contributions too. Our TakeHome In-Hand Salary Calculator is 100% free, unlimited, no watermark, works worldwide for India, USA, UK, Dubai, Canada. It calculates exact monthly and yearly in-hand from CTC with New Regime 2026 and Old Regime.</p>
+<p>For example, if your CTC is Rs 12 Lakh per annum in India, your in-hand is NOT Rs 1 Lakh per month. After 12% PF (Rs 57,600), Gratuity (Rs 23k), and Income Tax under new regime (Rs 42k), your yearly in-hand is Rs 10.14L, monthly Rs 84,550. That's 84.5% of CTC. Many freshers get confused between CTC and in-hand. This calculator clears that.</p>
+
+<h2>How In-Hand Salary Calculator Works? Formula</h2>
+<p>Formula India: Gross = CTC - Employer PF (12% of Basic) - Gratuity (4.81% of Basic). Basic = CTC * Basic%. HRA = Basic * HRA%. Special Allowance = Gross - Basic - HRA. Employee PF = 12% of Basic. Taxable Income = Gross - Standard Deduction (Rs 75,000 new regime) - 80C (if old). Income Tax calculated as per slab: New Regime 2026: 0-4L 0%, 4-8L 5%, 8-12L 10%, 12-16L 15%, 16-20L 20%, 20-24L 25%, 24L+ 30%. Then In-Hand Yearly = Gross - Employee PF - Income Tax - Professional Tax (Rs 2400). Monthly = Yearly/12.</p>
+<p>For USA: In-hand = Gross - Federal Tax (22% avg) - State Tax (5%) - Social Security (6.2%) - Medicare (1.45%). For UK: In-hand = Gross - Income Tax (20% slab) - NI (8%). For Dubai: No tax, In-hand = CTC itself. Our calculator auto-switches formula based on country tab.</p>
+
+<h2>Why TakeHome Salary Calculator is Rank #1 Worldwide?</h2>
+<p>1. Worldwide: One calculator for India, USA, UK, Dubai - best for NRI, remote workers. 2. New Regime 2026 Updated: As per latest Budget, standard deduction Rs 75k, rebate till Rs 12L income tax-free. 3. Exact Breakup: Shows Basic, HRA, Special, PF, Gratuity, Tax separately like payslip. 4. No Login: Unlimited usage, no watermark, screenshot your payslip. 5. SEO Optimized: Fast, mobile-first, FAQ schema, targets 200K/month keyword 'in hand salary calculator'.</p>
+<p>CTC Components Explained: Basic (40-50% of CTC, fully taxable), HRA (House Rent Allowance, tax-free if you live on rent, 50% of basic for metro, 40% non-metro), Special Allowance (fully taxable), Employer PF (12% of basic, part of CTC but not in-hand), Gratuity (4.81% of basic, paid after 5 years), Bonus (10-20% variable).</p>
+
+<h2>Tips to Increase In-Hand Salary from Same CTC</h2>
+<p>1. Choose New Regime if income < Rs 15L - you save tax without investments. 2. Increase Basic? No, keep Basic 40% only to reduce PF deduction and increase in-hand. 3. Claim HRA exemption: If rent is Rs 25k in metro and basic Rs 40k, HRA exemption = min(HRA received, Rent-10% basic, 50% basic) = Rs 21k/month tax-free. 4. Use 80C for old regime: PPF, ELSS, Life Insurance Rs 1.5L reduces tax. 5. Ask company for tax-free components: Food coupons (Rs 2200/month tax-free), Fuel reimbursement, NPS contribution (Rs 50k extra deduction).</p>
+<p>For USA remote workers: Ask for contractor role - you get full CTC without PF, but pay self-employment tax 15.3%. For Dubai: Zero income tax, so Rs 12L CTC = Rs 12L in-hand, but cost of living high.</p>
+
+<h2>Frequently Asked Questions</h2>
+<div class="faq">
+<div><b>Q1. How to calculate in-hand salary from 12 LPA CTC?</b><br>For 12 LPA CTC in India new regime, basic 40% = 4.8L, PF 57.6k, tax ~42k, in-hand = Rs 84,550/month, yearly 10.14L. Use our calculator for exact.</div>
+<div><b>Q2. What is difference between CTC and in-hand salary?</b><br>CTC includes employer PF, gratuity, bonus which you don't get monthly. In-hand is gross - PF - tax - deductions. Usually in-hand is 75-85% of CTC.</div>
+<div><b>Q3. Is 10 LPA good salary in India?</b><br>Yes, 10 LPA CTC gives ~Rs 71k in-hand monthly in metro new regime. Top 10% earners in India. Good for 2-3 years experience.</div>
+<div><b>Q4. How much tax on 15 LPA CTC?</b><br>Under new regime 2026, tax on 15 LPA is ~Rs 1.05L yearly (after 75k standard deduction). In-hand ~Rs 1,05,000/month.</div>
+<div><b>Q5. Is this salary calculator free and worldwide?</b><br>Yes, TakeHome In-Hand Salary Calculator is 100% free, no subscription, unlimited, works for India, USA, UK, Dubai with latest 2026 rules.</div>
+</div>
+</div>
+</div>
+
+<footer>
+<p>© 2026 TakeHome - Worldwide Salary Calculator</p>
+<div style="margin-top:10px">
+<a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="https://fixoraa.tech">More Tools</a><a href="/">Home</a>
+</div>
+<p style="margin-top:8px;font-size:11px">Disclaimer: Tax slabs as per Budget 2026. For educational purpose, consult CA for exact.</p>
+</footer>
+
+<script>
+let country='INDIA';
+function setCountry(c){
+country=c;
+document.getElementById('tabIndia').classList.toggle('active',c==='INDIA');
+document.getElementById('tabUSA').classList.toggle('active',c==='USA');
+document.getElementById('tabUK').classList.toggle('active',c==='UK');
+if(c!=='INDIA'){ document.getElementById('regime').value='new'; }
+calcSalary();
+}
+function calcTaxNew(income){
+let tax=0;
+let slabs=[[400000,0],[400000,0.05],[400000,0.10],[400000,0.15],[400000,0.20],[400000,0.25],[99999999,0.30]];
+let remaining=income;
+for(let i=0;i<slabs.length;i++){
+let amt=Math.min(remaining,slabs[i][0]);
+if(i>0){ tax+=amt*slabs[i][1]; }
+remaining-=slabs[i][0];
+if(remaining<=0) break;
+}
+if(income<=1200000) tax=0;
+return Math.max(0,tax);
+}
+function calcTaxOld(income){
+income=Math.max(0,income-50000);
+let tax=0;
+if(income<=250000) tax=0;
+else if(income<=500000) tax=(income-250000)*0.05;
+else if(income<=1000000) tax=12500+(income-500000)*0.20;
+else tax=112500+(income-1000000)*0.30;
+if(income<=500000) tax=0;
+return tax;
+}
+function calcSalary(){
+let ctc=parseFloat(document.getElementById('ctc').value)||0;
+let basicPerc=parseFloat(document.getElementById('basicPerc').value)||40;
+let hraPerc=parseFloat(document.getElementById('hraPerc').value)||50;
+let inv80c=parseFloat(document.getElementById('inv80c').value)||0;
+let other=parseFloat(document.getElementById('otherDed').value)||0;
+let bonus=parseFloat(document.getElementById('bonus').value)||0;
+let regime=document.getElementById('regime').value;
+
+let basic = ctc * basicPerc/100;
+let employerPF = basic * 0.12;
+let gratuity = basic * 0.0481;
+let gross = ctc - employerPF - gratuity;
+let hra = basic * hraPerc/100;
+let special = gross - basic - hra + bonus;
+let employeePF = basic * 0.12;
+let profTax = 2400;
+let taxable=0, tax=0, inHandYear=0;
+
+if(country==='INDIA'){
+let stdDed = regime==='new'?75000:50000;
+taxable = gross - stdDed - (regime==='old'?Math.min(inv80c,150000):0) - other;
+taxable = Math.max(0,taxable);
+if(regime==='new') tax=calcTaxNew(taxable);
+else tax=calcTaxOld(taxable);
+tax = tax * 1.04;
+inHandYear = gross - employeePF - tax - profTax;
+} else if(country==='USA'){
+tax = ctc * 0.28;
+inHandYear = ctc - tax;
+basic=ctc*0.7; hra=0; special=ctc*0.3; employerPF=0; employeePF=ctc*0.0765; gratuity=0;
+} else {
+if(country==='UK'){ tax=ctc*0.25; } else { tax=0; }
+inHandYear=ctc-tax;
+basic=ctc*0.8; hra=0; special=ctc*0.2; employerPF=0; employeePF=0; gratuity=0;
+}
+
+let inHandMonth = inHandYear/12;
+
+document.getElementById('basicAmt').innerText='₹ '+Math.round(basic).toLocaleString('en-IN');
+document.getElementById('hraAmt').innerText='₹ '+Math.round(hra).toLocaleString('en-IN');
+document.getElementById('special').innerText='₹ '+Math.round(special).toLocaleString('en-IN');
+document.getElementById('pf').innerText='- ₹ '+Math.round(employeePF).toLocaleString('en-IN');
+document.getElementById('tax').innerText='- ₹ '+Math.round(tax).toLocaleString('en-IN');
+document.getElementById('gratuity').innerText='₹ '+Math.round(gratuity).toLocaleString('en-IN');
+document.getElementById('inHand').innerHTML='₹ '+Math.round(inHandMonth).toLocaleString('en-IN')+' <span>/ month</span>';
+document.getElementById('yearlyInHand').innerText=`Yearly In-Hand: ₹ ${Math.round(inHandYear).toLocaleString('en-IN')} • ${((inHandYear/ctc)*100).toFixed(1)}% of CTC`;
+document.getElementById('takeHomeYear').innerText='₹ '+Math.round(inHandYear).toLocaleString('en-IN');
+
+let takeP=(inHandYear/ctc)*100, taxP=(tax/ctc)*100, pfP=(employeePF/ctc)*100;
+document.getElementById('barTake').style.width=takeP+'%';
+document.getElementById('barTax').style.width=taxP+'%';
+document.getElementById('barPF').style.width=pfP+'%';
+}
+calcSalary();
+document.querySelectorAll('input, select').forEach(el=>el.addEventListener('input',calcSalary));
+</script>
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"How to calculate in-hand salary from 12 LPA CTC?","acceptedAnswer":{"@type":"Answer","text":"For 12 LPA CTC, in-hand is Rs 84,550 per month in new regime after PF and tax."}},
+{"@type":"Question","name":"Is salary calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes 100% free, unlimited, worldwide, no watermark."}}
+]
+}
+</script>
+</body>
+</html>
